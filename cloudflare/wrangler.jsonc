@@ -1,0 +1,11 @@
+{
+  "name": "goshapa-student-assistant",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-09-08",
+  "workers_dev": true,
+  "assets": {"directory": "../assets", "binding": "ASSETS"},
+  "vars": {"CANVAS_BASE_URL": "https://worldclassroom.webster.edu", "ENABLED": "false"},
+  "triggers": {"crons": ["* * * * *"]},
+  "observability": {"enabled": true},
+  "d1_databases": [{"binding": "DB", "database_name": "goshapa-student-assistant", "database_id": "TO_BE_CREATED"}]
+}

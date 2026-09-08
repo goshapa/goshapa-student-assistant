@@ -3,6 +3,9 @@
 Личный Telegram-бот на Python/aiogram 3, который следит за расписанием, Canvas
 LMS assignments и дедлайнами одного пользователя (владельца бота).
 
+Версия для Cloudflare Workers + D1 находится в [cloudflare/](cloudflare/README.md).
+Она использует webhook и Cron Triggers; Python-версия ниже запускается на ПК или сервере.
+
 ## 1. Установка Python
 
 Нужен Python 3.12+. Проверить версию:

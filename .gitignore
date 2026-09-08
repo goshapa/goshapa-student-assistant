@@ -15,3 +15,7 @@ data/
 .pytest_cache/
 .idea/
 .vscode/
+node_modules/
+.wrangler/
+.dev.vars*
+cloudflare/private/
