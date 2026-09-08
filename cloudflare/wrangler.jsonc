@@ -1,11 +1,12 @@
 {
   "name": "goshapa-student-assistant",
+  "account_id": "73158c97c71240f561c440b8c92bde5d",
   "main": "src/worker.js",
   "compatibility_date": "2026-09-08",
   "workers_dev": true,
   "assets": {"directory": "../assets", "binding": "ASSETS"},
-  "vars": {"CANVAS_BASE_URL": "https://worldclassroom.webster.edu", "ENABLED": "false"},
+  "vars": {"CANVAS_BASE_URL": "https://worldclassroom.webster.edu", "ENABLED": "true", "PUBLIC_URL": "https://goshapa-student-assistant.alexgulom2009.workers.dev"},
   "triggers": {"crons": ["* * * * *"]},
   "observability": {"enabled": true},
-  "d1_databases": [{"binding": "DB", "database_name": "goshapa-student-assistant", "database_id": "TO_BE_CREATED"}]
+  "d1_databases": [{"binding": "DB", "database_name": "goshapa-student-assistant", "database_id": "874d342e-e57f-4958-982e-ab2deb7fb158"}]
 }
